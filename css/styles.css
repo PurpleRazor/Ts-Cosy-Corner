@@ -4,7 +4,7 @@ body {
 
 h1 {
   text-align: center;
-  font-size: 70px;
+  font-size: 90px;
 }
 
 h2 {
@@ -15,4 +15,47 @@ h2 {
 main {
   margin: 100px 50px;
   display: block;
+}
+amazon-link {
+  text-decoration: none;
+}
+amazon-link:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 800px) {
+  h1 {
+    text-align: center;
+    font-size: 50px;
+  }
+  h3 {
+    font-size: 60px;
+  }
+  h2 {
+    text-align: center;
+  }
+
+  p {
+    text-align: center;
+  }
+}
+.buy-it-link {
+  text-align: center;
+}
+.by-links {
+  text-decoration: none;
+  color: black;
+}
+.by-links:hover {
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  margin: 30px;
+  opacity: 0.8;
+}
+
+.email-image {
+  font-size: 80px;
 }
