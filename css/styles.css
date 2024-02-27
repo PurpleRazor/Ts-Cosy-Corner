@@ -56,6 +56,11 @@ footer {
   opacity: 0.8;
 }
 
-.email-image {
-  font-size: 80px;
+.email-icon {
+  max-width: 80px;
+}
+
+.contact-me-links {
+  display: block;
+  justify-content: center;
 }
