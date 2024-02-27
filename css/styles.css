@@ -56,11 +56,9 @@ footer {
   opacity: 0.8;
 }
 
-.email-icon {
-  max-width: 80px;
-}
-
-.contact-me-links {
-  display: block;
-  justify-content: center;
+.Contact-icon {
+  text-align: center;
+  font-size: 80px;
+  margin-top: 80px;
+  color: #cfdee6;
 }
