@@ -1,5 +1,25 @@
+:root {
+  --heading-font: "playfair display", serif;
+  --page-font: "poppins", sans serif;
+}
+
 body {
   background-color: #cfdee6;
+  font: var(--page-font);
+}
+
+p {
+  padding: 30px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font: var(--heading-font);
+  font-weight: 700;
 }
 
 h1 {
@@ -10,11 +30,16 @@ h1 {
 h2 {
   font-size: 30px;
   text-align: center;
+  margin: 30px;
 }
 
 main {
   margin: 100px 50px;
   display: block;
+}
+
+.content {
+  padding: 0 50px;
 }
 amazon-link {
   text-decoration: none;
@@ -33,16 +58,24 @@ amazon-link:hover {
   }
   h2 {
     text-align: center;
+    padding: 5px;
+    margin: 0;
   }
 
   p {
     text-align: center;
+    padding: 5px;
+    margin: 0;
+  }
+
+  .content {
+    padding: 5px;
   }
 }
 .buy-it-link {
   text-align: center;
 }
-.by-links {
+.by-link {
   text-decoration: none;
   color: black;
 }
