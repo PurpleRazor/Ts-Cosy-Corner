@@ -10,6 +10,8 @@ body {
 
 p {
   padding: 30px;
+  font-size: 20px;
+  line-height: 1.5;
 }
 
 h1,
@@ -28,7 +30,7 @@ h1 {
 }
 
 h2 {
-  font-size: 30px;
+  font-size: 40px;
   text-align: center;
   margin: 30px;
 }
@@ -38,9 +40,6 @@ main {
   display: block;
 }
 
-.content {
-  padding: 0 50px;
-}
 amazon-link {
   text-decoration: none;
 }
@@ -67,11 +66,17 @@ amazon-link:hover {
     padding: 5px;
     margin: 0;
   }
-
-  .content {
-    padding: 5px;
-  }
 }
+
+.wrapper {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  background-color: white;
+  border-radius: 20px;
+}
+
 .buy-it-link {
   text-align: center;
 }
@@ -79,7 +84,7 @@ amazon-link:hover {
   text-decoration: none;
   color: black;
 }
-.by-links:hover {
+.by-link:hover {
   text-decoration: underline;
 }
 
@@ -92,6 +97,10 @@ footer {
 .Contact-icon {
   text-align: center;
   font-size: 80px;
-  margin-top: 80px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   color: #cfdee6;
+}
+.amazon-link-btn:hover {
+  text-decoration: underline;
 }
