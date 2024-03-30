@@ -82,6 +82,8 @@ amazon-link:hover {
   background-color: white;
   border-radius: 20px;
   max-width: fit-content;
+  display: block;
+  margin: 0 auto;
 }
 
 .buy-it-link {
