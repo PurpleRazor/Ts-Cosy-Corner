@@ -81,6 +81,7 @@ amazon-link:hover {
     rgba(0, 0, 0, 0.22) 0px 10px 10px;
   background-color: white;
   border-radius: 20px;
+  max-width: fit-content;
 }
 
 .buy-it-link {
